@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  padding: 1rem;
+  background-color: lightblue;
+}
+.hero {
+  min-height: 90vh;
+  background-image: url("./src/pexels-felipepelaquim-2343507.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero h2 {
+  text-align: center;
+  margin: 2rem;
+}
+.hero button {
+  padding: 1rem 2rem;
+  background: rgb(223, 221, 221);
+  border: none;
+}
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro img {
+  width: 100%;
+}
+.intro-img {
+  flex: 1 1 30rem;
+}
+.intro-text {
+  flex: 1 1 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro-text h2 {
+  padding: 2rem;
+}
+.intro-text p {
+  padding: 0.5rem;
+}
